@@ -24,3 +24,4 @@ hello world
 16. `hosts`删除部分配置。  
 17. `ssh`相关信息删除。  
 18. 微信读书
+19. Todesk
