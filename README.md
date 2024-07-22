@@ -11,5 +11,3 @@ git commit -m [message] // 提交暂存区到仓库区
 git branch // 列出所有分支
 git checkout -b [branch] // 新建一个分支，并切换到该分支
 git status // 显示有变更的文件 
-
-测试12
