@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>example</title>
 </head>
+
 <body>
   <p>fast-cache test</p>
   <script src="../release/bundle.js"></script>
+  <script>
+    let FC = window.FastCache
+    let cache = new FC()
+    cache.set('a', 100)
+    alert(cache.get('a'))
+  </script>
 </body>
+
 </html>
